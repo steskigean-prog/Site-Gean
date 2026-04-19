@@ -1,67 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steski Jogos</title>
-    <link rel="shortcut icon" href="img/icone.png.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
-</head>
-<body>
-   <header>
-    <a href="index.html" title="Home">
-        <img src="img/banner.jpg" alt="Meu site" title="Meu site" width="250px">
-    </a>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" title="Home">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="sobre.html" title="Sobre">
-                    Sobre
-                </a>
-            </li>
-            <li>
-                <a href="contato.html" title="Contato">
-                    Contato
-                </a>
-            </li>
-            <li>
-                <div>
-                    <a href="index.html" title="Jogar" class="btn">
-                        Jogar
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-   </header>
+	<title>Jogo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	
+	<!-- Made with Construct, the game and app creator :: https://www.construct.net -->
+	<meta name="generator" content="Scirra Construct">
 
-   <div class="banner2">
-        <img src="img/banner2.png" alt="banner2" title="banner2">
-   </div>
-   <main>
-        <h1>
-            <a href="sobre.html">Sobre o Jogo!</a>
-        </h1>
-   </main>
-   <footer>
-        <p>Todos os direitos reservados</p>
-        <p>
-            <a href="https://facebook.com" title="facebook">
-                <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://instagram.com" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </p>
-   </footer>
-</body>
+
+
+	<link rel="manifest" href="appmanifest.json">
+	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+	<link rel="icon" type="image/png" href="icons/icon-512.png">
+
+	<link rel="stylesheet" href="style.css">
+
+
+
+</head> 
+ 
+<body>
+
+	
+
+<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+</script>
+	
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+	<script src="scripts/modernjscheck.js"></script>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/offlineclient.js" type="module"></script>
+	<script src="scripts/main.js" type="module"></script>
+	<script src="scripts/register-sw.js" type="module"></script>
+
+</body> 
 </html>
