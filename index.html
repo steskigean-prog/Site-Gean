@@ -16,6 +16,11 @@
     <a href="index.html" title="Home">
         <img src="img/banner.jpg" alt="Meu site" title="Meu site" width="250px">
     </a>
+
+    <a href="javascript:mostrarmenu()" class="menu">
+        <i class="fas fa-bars"></i>
+    </a>
+
     <nav>
         <ul>
             <li>
@@ -35,7 +40,7 @@
             </li>
             <li>
                 <div>
-                    <link href="Jogo/index.html" title="Jogar" class="btn">
+                    <a href="Jogo/index.html" title="Jogar" class="btn">
                         Jogar
                     </a>
                 </div>
@@ -63,5 +68,10 @@
             </a>
         </p>
    </footer>
+   <script>
+        function mostrarmenu(){
+            document.querySelector("header nav").classList.toggle("mostrar");
+        }
+   </script>
 </body>
 </html>
