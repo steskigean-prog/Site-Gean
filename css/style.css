@@ -37,6 +37,18 @@ header nav ul li a {
 header nav ul li a:hover {
     color:#f00;
 }
+header nav ul li div a {
+    padding: 10px 15px;
+    width:75px;
+    color:#fff;
+    background:red;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+header nav ul li div a:hover{
+    color: black;
+}
 .banner2 {
     width: 400px;
     margin: 0 auto;
@@ -55,18 +67,6 @@ header nav ul li a:hover {
 main,footer p {
     text-align: center;
     
-}
-header nav ul li div a {
-    padding: 10px 15px;
-    width:75px;
-    color:#fff;
-    background:red;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    text-align: center;
-}
-header nav ul li div a:hover{
-    color: black;
 }
 footer a {
     background:#fff;
